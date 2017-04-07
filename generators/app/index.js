@@ -7,6 +7,7 @@ const util = require(`./utility`);
 const prompts = require(`./prompt`);
 const compose = require(`../app/compose`);
 const generators = require(`yeoman-generator`);
+const appInsights = require(`applicationinsights`);
 
 function construct() {
    // Calling the super constructor is important so our generator is correctly set up
